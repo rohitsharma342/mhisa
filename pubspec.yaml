@@ -1,0 +1,29 @@
+name: mhisa
+description: An innovative dating app focused on fostering genuine connections through real-time audio calls.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  intl: ^0.18.1
+  permission_handler: ^11.0.1
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
